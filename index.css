@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+/* headerTop */
+
+.headerTop:before,
+.headerTop:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.headerTop {
+  zoom: 1;
+}
+
+.headerTop .headerTop_block {
+  background: #0082d4;
+  height: 34px;
+  width: 100%;
+  line-height: 34px;
+}
+
+.headerTop .headerTop_tel,
+.logo .logo_center,
+.nav_main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.headerTop_tel p {
+  background-color: #0082d4;
+}
+
+.headerTop_tel p.cl {
+  width: 500px;
+  color: #fff;
+  text-align: left;
+  float: left;
+  display: inline-block;
+}
+
+.headerTop_tel p.cr {
+  width: 500px;
+  text-align: right;
+  color: #fff;
+  float: right;
+  display: inline-block;
+}
+
+/* logo */
+
+.logo {
+  background: #008ae1;
+  height: 114px;
+  min-width: 1000px;
+  width: 100%;
+}
+
+.logo .logo_center {
+  overflow: hidden;
+}
+
+.logo .logo_left {
+  width: 388px;
+  height: 80px;
+  float: left;
+  margin-top: 20px;
+  background: url(http://www.ccgp.gov.cn/img/logo_new.gif) no-repeat left top;
+}
+
+.logo .logo_right {
+  width: 612px;
+  height: 114px;
+  float: left;
+  background: url(http://www.ccgp.gov.cn/img/cloud.gif) no-repeat left bottom;
+  overflow: hidden;
+  float: left;
+}
+
+/* nav */
+
+.nav_container {
+  background: #005496;
+  height: 48px;
+  box-shadow: 0px 0px 8px #006baf;
+}
+
+.nav_container .nav_ls {
+  width: 100%;
+  list-style: none;
+}
+
+.nav_container .nav_ls li {
+  width: 148px;
+  height: 48px;
+  background: #005495;
+  float: left;
+  text-align: center;
+}
+
+.nav_container .nav_ls li.index {
+  width: 112px;
+}
+
+/* .nav_container .nav_ls li.active {
+  background: #3d87d1;
+} */
+
+.nav_container .nav_ls a {
+  color: #fff;
+  line-height: 48px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/* main */
+
+.main {
+  width: 100%;
+  /* background: #f0f0f0; */
+}
+
+.main .main_container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main .main_container .bread {
+  color: #005495;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* main file */
+
+.main_file {
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+.main_file h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main_file .subHeading {
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main_file .bulletin {
+  background-color: #921C11;
+}
+
+/* main file content */
+
+.main_file .content {
+  padding-top: 20px;
+  text-align: justify;
+  margin: 0 100px 0 100px;
+}
+
+.content_table {
+  margin-bottom: 8px;
+  border-collapse: collapse;
+}
+
+.content_table td {
+  padding: 5px;
+}
+
+.main_file .content p {
+  line-height: 35px;
+}
+
+.main_file .content p span.underline {
+  text-decoration: underline;
+}
+
+/* footer */
+
+.footer {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 70px;
+  background: #ccc;
+  color: #333;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 70px;
+}
+
+.footer p span {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+}
+.footer p a {
+  color: #333;
+  text-decoration: none;
+}
